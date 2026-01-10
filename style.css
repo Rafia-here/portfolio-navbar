@@ -15,3 +15,11 @@
     
     color: #5E3BEE;
 }
+.herobtn{
+    background-color: var(--primary);
+    color: azure;
+}
+.hero{
+    background-color: #F5FCFF;
+;
+}
