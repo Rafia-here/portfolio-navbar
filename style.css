@@ -1,25 +1,56 @@
-*{
+* {
     margin: 0;
     padding: 0;
-    
+
 }
 
-:root{
-    --primary : #5E3BEE;
+:root {
+    --primary: #5E3BEE;
 }
-.btn-purple{
-    border: 1px solid  var(--primary);
+
+.btn-purple {
+    border: 1px solid var(--primary);
     color: var(--primary);
 }
-.text{
-    
+
+.text {
+
     color: #5E3BEE;
 }
-.herobtn{
+
+.herobtn {
     background-color: var(--primary);
     color: azure;
 }
-.hero{
+
+.hero {
     background-color: #F5FCFF;
-;
+
+}
+
+/* gallery start  */
+.gallery {
+    background-color: #F5FCFF;
+    outline: 20px solid white;
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 20px;
+    
+}
+
+.section {
+   margin-left: 60px;
+   margin-top: 40px;
+}
+.image img{
+    max-width: 100%;
+    width: 50%;
+}
+
+/* gallery end */
+.heading h4 h3{
+    color: black !important;
+}
+.lead{
+    margin-top: 20px;
 }
