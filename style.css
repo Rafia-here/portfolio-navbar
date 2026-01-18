@@ -23,10 +23,7 @@
     color: azure;
 }
 
-.hero {
-    background-color: #F5FCFF;
 
-}
 
 /* gallery start  */
 .gallery {
@@ -35,22 +32,64 @@
     display: flex !important;
     flex-direction: column !important;
     gap: 20px;
-    
+
 }
 
 .section {
-   margin-left: 60px;
-   margin-top: 40px;
+    margin-left: 60px;
+    margin-top: 40px;
 }
-.image img{
+
+.image img {
     max-width: 100%;
     width: 50%;
 }
 
 /* gallery end */
-.heading h4 h3{
+.heading h4 h3 {
     color: black !important;
 }
-.lead{
+
+.lead {
     margin-top: 20px;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.container {
+    width: 1920;
+    height: 902.1852416992188;
+    padding-top: 7%;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 50px;
+    margin-top: 10%;
+    gap: 106.67px;
+    background: #F5FCFF;
+
+}
+
+.top h2 {
+    padding-bottom: 50px;
+}
+.card-title{
+    display: flex;
+  flex-direction: column;
+    gap: 20px;
+} 
+.card-text{
+    margin-top: 20px;
+}
+.image{
+    border-radius: 50px;
+}
+.btn{
+    background-color: #5E3BEE;
+color: white;
 }
